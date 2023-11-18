@@ -8,7 +8,7 @@ function CardBolo(props:any) {
         <div id="card">
             <div>
                 <img
-                    src={"http://localhost:3000/static/" + props.imagem}
+                    src={"http://localhost:3000/static/" + props.foto}
                     alt={"Foto de um " + props.nome}
                 />
             </div>
@@ -16,7 +16,7 @@ function CardBolo(props:any) {
                 <h2>{props.nome}</h2>
                 <div>
                     <span>Ingredientes: </span>
-                    <p>Bolo: {props.ingedientes}</p>
+                    <p>Bolo: {props.ingredientes}</p>
                     <p>Cobertura: {props.cobertura}</p>
                 </div>
                 <span>R$ {props.valor}</span>
